@@ -182,14 +182,14 @@ p.p-description {
 }
 
 .bitmap {
-  width: 536px;
-  height: 350px;
-  object-fit: contain;
+  min-width: 536px;
+  min-height: 350px;
+  object-fit: fill;
 }
 
 .footer {
   margin-top: 3rem;
-  padding: 2rem 7.5rem;
+  padding: 2rem 8.5rem;
   background-color: #111111;
   color: white;
   font-family: 'Fira Sans', serif;
@@ -199,7 +199,7 @@ p.p-description {
 
 .footer-links {
   display: flex;
-  width: 1200px;
+  flex-direction: row;
 }
 
 .footer-links a {
