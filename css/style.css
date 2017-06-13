@@ -1,0 +1,262 @@
+.row {
+  display: flex;
+}
+
+[class*="col-"] {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.col-1 {
+  flex-basis: 8.33333333%;
+}
+
+.col-2 {
+  flex-basis: 16.66666667%;
+}
+
+.col-3 {
+  flex-basis: 25%;
+}
+
+.col-4 {
+  flex-basis: 33.33333333%;
+}
+
+.col-5 {
+  flex-basis: 41.66666667%;
+}
+
+.col-6 {
+  flex-basis: 50%;
+}
+
+.col-7 {
+  flex-basis: 58.33333333%;
+}
+
+.col-8 {
+  flex-basis: 66.66666667%;
+}
+
+.col-9 {
+  flex-basis: 75%;
+}
+
+.col-10 {
+  flex-basis: 83.33333333%;
+}
+
+.col-11 {
+  flex-basis: 91.66666667%;
+}
+
+.col-12 {
+  flex-basis: 100%;
+}
+
+body {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased;
+  -webkit-line-break: after-white-space;
+  background-image: url('../img/background.png');
+  background-repeat: repeat;
+  background-size: 20px;
+  background-color: #eaebf0;
+}
+
+.header {
+  padding: 1.25rem 7.5rem;
+  align-items: center;
+}
+
+.compass-logo {
+  width: 179.1px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.nav {
+  margin-left: auto;
+}
+
+.nav a {
+  margin-left: 2rem;
+  text-decoration: none;
+  color: #3e4247;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.compass-development-logo {
+  width: 418.9px;
+  height: 131px;
+  object-fit: contain;
+}
+
+.hero {
+  background-color: #161616;
+  justify-content: center;
+  padding: 5rem 0rem;
+}
+
+.headline {
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 0rem;
+  text-align: center;
+}
+
+.headline h2 {
+  font-size: 1.5rem;
+  line-height: 2.3125rem;
+  font-family: 'Fira Sans', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.headline p {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: 'Fira Sans', serif;
+  font-weight: 400;
+  margin-top: 0.5rem;
+}
+
+.headline button {
+  padding: 0.8125rem 1.9375rem;
+  border-radius: 0.125rem;
+  background-color: #000000;
+  color: #ffffff;
+  line-height: 1;
+  font-family: 'Fira Sans', serif;
+  font-size: 1rem;
+  border: none;
+}
+
+.card {
+  flex-direction: row;
+  margin-bottom: 3rem;
+  max-width: 75rem;
+  margin: 0rem auto 4rem;
+  background-color: white;
+}
+
+a.a-card {
+  text-decoration: none;
+}
+
+div.card:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+.card div {
+  padding: 1.5rem 2rem;
+  box-shadow: inset 0rem -0.125rem #646971;
+}
+
+p.p-location {
+  font-size: 1rem;
+  color: #646971;
+  font-family: 'Monaco';
+  line-height: 1.25rem;
+  margin: 0 0 1.5rem;
+}
+
+.card h3 {
+  font-family: 'Fira Sans', serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: black;
+  margin: 0 0 0.5rem;
+}
+
+p.p-description {
+  font-family: 'Fira Sans', serif;
+  color: #3e4247;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 0;
+}
+
+.bitmap {
+  width: 536px;
+  height: 350px;
+  object-fit: contain;
+}
+
+.footer {
+  margin-top: 3rem;
+  padding: 2rem 7.5rem;
+  background-color: #111111;
+  color: white;
+  font-family: 'Fira Sans', serif;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+}
+
+.footer-links {
+  display: flex;
+  width: 1200px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  display: block;
+}
+
+.footer h4 {
+  font-weight: 700;
+  color: #646971;
+  margin-bottom: 0.25rem;
+  margin-top: 0;
+}
+
+.footer p {
+  margin-bottom: 0.25rem;
+  margin-top: 0;
+}
+
+.footer-info p {
+  color: #a9afb6;
+  font-weight: 300;
+}
+
+.footer-apartments h4 {
+  border-top: 0.125rem solid #3e4247;
+  padding-top: 1rem;
+}
+
+.footer-apartments a {
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.footer-company h4 {
+  border-top: 0.125rem solid #3e4247;
+  padding-top: 1rem;
+}
+
+.footer-company a {
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.footer-ofer {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+}
+
+.footer-ofer p {
+  margin-top: 5.75rem;
+  font-size: 0.6875rem;
+  line-height: 1.4;
+}
+
+.nbsp {
+  line-height: 0.75rem;
+  margin-bottom: 0;
+}
