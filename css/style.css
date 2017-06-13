@@ -137,11 +137,14 @@ body {
   border: none;
 }
 
+.cards {
+  margin: 0 auto;
+  max-width: 74rem;
+}
+
 .card {
   flex-direction: row;
   margin-bottom: 3rem;
-  max-width: 73rem;
-  margin: 0rem 8rem 4rem;
   background-color: white;
 }
 
@@ -154,7 +157,7 @@ div.card:hover {
 }
 
 .card div {
-  padding: 1.5rem 1rem;
+  padding: 1.5rem 6.25rem 1.5rem 1rem;
   box-shadow: inset 0rem -0.125rem #646971;
 }
 
@@ -169,6 +172,7 @@ p.p-location {
 .card h3 {
   font-family: 'Fira Sans', serif;
   font-size: 2.5rem;
+  line-height: 3.5rem;
   font-weight: 700;
   color: black;
   margin: 0 0 0.5rem;
@@ -177,7 +181,6 @@ p.p-location {
 p.p-description {
   font-family: 'Fira Sans', serif;
   color: #3e4247;
-  width: 36.5rem;
   font-size: 1rem;
   line-height: 1.5rem;
   margin: 0;
@@ -189,9 +192,15 @@ p.p-description {
   object-fit: cover;
 }
 
+.div-footer {
+  background-color: #111111;
+}
+
 .footer {
-  margin-top: 6rem;
-  padding: 2rem 8rem;
+  margin: 6rem auto 0 auto;
+  width: 74rem;
+  max-width: 74rem;
+  padding: 2rem 0;
   background-color: #111111;
   color: white;
   font-family: 'Fira Sans', serif;
@@ -208,12 +217,14 @@ p.p-description {
 .footer-links a {
   text-decoration: none;
   display: block;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
 }
 
 .footer h4 {
   font-weight: 700;
   color: #646971;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
   margin-top: 0;
 }
 
@@ -229,6 +240,14 @@ p.p-description {
 .footer-info p {
   color: #a9afb6;
   font-weight: 300;
+}
+
+.footer-info h4 {
+  margin-bottom: 0.25rem;
+}
+
+div.footer-info p:nth-child(5) {
+  margin-top:0.5rem;
 }
 
 .footer-apartments h4 {
@@ -257,11 +276,13 @@ p.p-description {
 .footer-ofer p {
   margin-top: 5.75rem;
   font-size: 0.6875rem;
-  line-height: 1.4;
+  line-height: 1.125rem;
+  font-weight: 100;
+  color: #a9afb6;
   padding-right: 0;
 }
 
 .nbsp {
-  line-height: 0.75rem;
+  line-height: 0.25rem;
   margin-bottom: 0;
 }
