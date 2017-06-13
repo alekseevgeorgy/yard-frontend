@@ -68,6 +68,7 @@ body {
 .header {
   padding: 1.25rem 8.5rem;
   align-items: center;
+  background-color: white;
 }
 
 .compass-logo {
