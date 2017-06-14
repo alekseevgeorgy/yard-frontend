@@ -98,6 +98,7 @@ body {
 }
 
 .hero {
+  display: flex;
   background-color: #161616;
   justify-content: center;
   padding: 5rem 0rem;
@@ -127,8 +128,8 @@ body {
   margin-top: .5rem;
 }
 
-.contact-button {
-  padding: .8125rem 2rem;
+.button-contact {
+  padding: .75rem 2rem;
   border-radius: .125rem;
   background-color: #000;
   color: #fff;
@@ -147,9 +148,6 @@ body {
   flex-direction: row;
   margin-bottom: 3rem;
   background-color: white;
-}
-
-.card-link {
   text-decoration: none;
 }
 
@@ -157,7 +155,7 @@ body {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, .3);
 }
 
-.card-padding {
+.card-content {
   padding: 1.5rem 6.25rem 1.5rem 1rem;
   box-shadow: inset 0rem -.125rem #646971;
 }
