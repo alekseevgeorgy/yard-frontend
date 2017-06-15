@@ -149,6 +149,7 @@ body {
   margin-bottom: 3rem;
   background-color: white;
   text-decoration: none;
+  display: block;
 }
 
 .card:hover {
