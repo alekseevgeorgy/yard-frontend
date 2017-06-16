@@ -1,64 +1,6 @@
-.row {
-  display: flex;
-}
-
-[class*="col-"] {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.col-1 {
-  flex-basis: 8.33333333%;
-}
-
-.col-2 {
-  flex-basis: 16.66666667%;
-}
-
-.col-3 {
-  flex-basis: 25%;
-}
-
-.col-4 {
-  flex-basis: 33.33333333%;
-}
-
-.col-5 {
-  flex-basis: 41.66666667%;
-}
-
-.col-6 {
-  flex-basis: 50%;
-}
-
-.col-7 {
-  flex-basis: 58.33333333%;
-}
-
-.col-8 {
-  flex-basis: 66.66666667%;
-}
-
-.col-9 {
-  flex-basis: 75%;
-}
-
-.col-10 {
-  flex-basis: 83.33333333%;
-}
-
-.col-11 {
-  flex-basis: 91.66666667%;
-}
-
-.col-12 {
-  flex-basis: 100%;
-}
-
 body {
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased;
-  -webkit-line-break: after-white-space;
   background-image: url('../img/background.png');
   background-repeat: repeat;
   background-size: 20px;
@@ -66,19 +8,14 @@ body {
 }
 
 .header {
-  padding: 1.25rem 8rem;
-  align-items: center;
-  background-color: white;
-}
-
-.compass-logo {
-  width: 179.1px;
-  height: 24px;
-  object-fit: contain;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid #eaebf0;
+  background-color: #fff;
 }
 
 .nav {
-  margin-left: auto;
+  text-align: right;
 }
 
 .nav-link {
@@ -91,20 +28,25 @@ body {
   line-height: 1;
 }
 
-.compass-development-logo {
-  width: 418.9px;
-  height: 131px;
-  object-fit: contain;
+/*Flexboxgrid column adds strange 4px on the bottom for some reasons*/
+.header-compass-logo {
+  margin-bottom: -0.25rem;
 }
 
-.hero {
+.complexes-hero {
   display: flex;
   background-color: #161616;
   justify-content: center;
   padding: 5rem 0rem;
 }
 
-.headline {
+.complexes-hero-compass-development-logo {
+  width: 418.9px;
+  height: 131px;
+  object-fit: contain;
+}
+
+.complexes-headline {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -112,7 +54,7 @@ body {
   text-align: center;
 }
 
-.headline-heading {
+.complexes-headline-title {
   font-size: 1.5rem;
   line-height: 2.3125rem;
   font-family: 'Fira Sans', serif;
@@ -120,7 +62,7 @@ body {
   padding: 0;
 }
 
-.headline-paragraph {
+.complexes-headline-paragraph {
   font-size: 1rem;
   line-height: 1.5;
   font-family: 'Fira Sans', serif;
@@ -139,29 +81,28 @@ body {
   border: none;
 }
 
-.cards {
-  margin: 0 auto;
-  max-width: 74rem;
+.complexes-cards {
+  margin-bottom: 6rem;
 }
 
-.card {
+.complexes-card {
+  display: flex;
   flex-direction: row;
   margin-bottom: 3rem;
   background-color: white;
   text-decoration: none;
-  display: block;
 }
 
-.card:hover {
+.complexes-card:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, .3);
 }
 
-.card-content {
+.complexes-card-content {
   padding: 1.5rem 6.25rem 1.5rem 1rem;
   box-shadow: inset 0rem -.125rem #646971;
 }
 
-.card-location {
+.complexes-card-location {
   font-size: 1rem;
   color: #646971;
   font-family: 'Monaco';
@@ -169,7 +110,7 @@ body {
   margin: 0 0 1.5rem;
 }
 
-.card-address {
+.complexes-card-address {
   font-family: 'Fira Sans', serif;
   font-size: 2.5rem;
   line-height: 3.5rem;
@@ -178,7 +119,7 @@ body {
   margin: 0 0 .5rem;
 }
 
-.card-description {
+.complexes-card-description {
   font-family: 'Fira Sans', serif;
   color: #3e4247;
   font-size: 1rem;
@@ -186,87 +127,116 @@ body {
   margin: 0;
 }
 
-.bitmap {
-  width: 484px;
-  height: 350px;
+.complexes-card-photo {
   object-fit: cover;
   flex-shrink: 0;
+  width: 31.125rem;
 }
 
-.footer-wrapper {
+.footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   background-color: #111;
 }
 
-.footer-container {
-  margin: 6rem auto 0 auto;
-  width: 74rem;
-  max-width: 74rem;
-  padding: 2rem 0;
-  background-color: #111;
-  color: white;
-  font-family: 'Fira Sans', serif;
+.footer-legal-title {
+  color: #646971;
+  font-family: 'Fira Sans', sans-serif;
   font-size: .875rem;
   line-height: 1.375rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-.footer-link {
+.footer-legal-text {
+  color: #A9AFB6;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: .875rem;
+  line-height: 1.375rem;
+  font-weight: 300;
+  margin-top: .5rem;
+  margin-bottom: 0;
+}
+.footer-legal-text-tel {
+  color: #A9AFB6;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: .875rem;
+  line-height: 1.375rem;
+  font-weight: 300;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.footer-complexes-title {
+  color: #646971;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: .875rem;
+  line-height: 1.375rem;
+  font-weight: 700;
+  padding-top: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-top: 2px solid #3e4247;
+}
+
+.footer-complexes-link {
   text-decoration: none;
   display: block;
-  margin-bottom: .5rem;
-  margin-top: 0;
-}
-
-.footer-heading {
-  font-weight: 700;
-  color: #646971;
-  margin-bottom: .5rem;
-  margin-top: 0;
-}
-
-.footer-paragraph {
-  margin-bottom: .5rem;
-  margin-top: 0;
-  font-weight: 300;
-  color: #a9afb6;
-}
-
-.footer-info {
-  padding-left: 0;
-}
-
-.footer-paragraph-tel {
-  margin-top:1rem;
-}
-
-.footer-apartments .footer-heading {
-  border-top: .125rem solid #3e4247;
-  padding-top: 1rem;
-}
-
-.footer-apartments .footer-link {
+  margin-bottom: 0;
+  margin-top: .5rem;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: .875rem;
+  line-height: 1.375rem;
   font-weight: 300;
   color: #fff;
 }
 
-.footer-link-catalog {
+.footer-complexes-link-all {
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0;
   margin-top: 1rem;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: .875rem;
+  line-height: 1.375rem;
+  font-weight: 300;
+  color: #fff;
 }
 
-.footer-company .footer-heading {
-  border-top: .125rem solid #3e4247;
+.footer-complexes-link-all-arrow {
+  margin-left: .5rem;
+}
+
+.footer-about-title {
+  color: #646971;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: .875rem;
+  line-height: 1.375rem;
+  font-weight: 700;
   padding-top: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-top: 2px solid #3e4247;
 }
 
-.footer-company .footer-link {
+.footer-about-link {
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0;
+  margin-top: .5rem;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: .875rem;
+  line-height: 1.375rem;
   font-weight: 300;
   color: #fff;
 }
 
 .footer-copyright {
-  margin-top: 5.75rem;
+  margin-top: 6rem;
+  font-family: 'Fira Sans', sans-serif;
   font-size: .6875rem;
   line-height: 1.125rem;
   font-weight: 100;
   color: #a9afb6;
-  padding-right: 0;
 }
