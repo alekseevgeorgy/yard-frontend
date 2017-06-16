@@ -4,28 +4,25 @@
     <title>Compass development</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" href="css/style_updated.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-complex.css">
     <link href="https://fonts.googleapis.com/css?family=Philosopher:700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700&amp;subset=cyrillic-ext" rel="stylesheet">
     <meta charset="utf-8">
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <div class="row middle-xs between-xs">
-          <div class="col-xs">
-            <img class="compass-logo" src="img/compass-logo.svg" alt="logo">
-          </div>
-          <div class="col-xs">
-            <nav class="nav">
-              <a href="#" class="nav-link">Купить</a>
-              <a href="#" class="nav-link">Снять</a>
-              <a href="#" class="nav-link">Наши агенты</a>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </header>
+   <header class="header">
+     <div class="container">
+       <div class="header-wrapper">
+         <img class="header-compass-logo" src="img/compass-logo.svg" alt="logo">
+         <nav class="header-nav">
+           <a href="#" class="header-nav-link">Купить</a>
+           <a href="#" class="header-nav-link">Снять</a>
+           <a href="#" class="header-nav-link">Наши агенты</a>
+         </nav>
+       </div>
+     </div>
+   </header>
     <div class="complex-brief container ">
       <div class="complex-brief-info">
           <h1 class="complex-brief-info-name">
@@ -41,11 +38,11 @@
     </div>
     <div class="complex-display">
       <div class="complex-display-photos">
-        <img class="photo" src="img/complex-page-photos/photo1.png"/>
-        <img class="photo" src="img/complex-page-photos/photo2.png"/>
-        <img class="photo" src="img/complex-page-photos/photo3.png"/>
-        <img class="photo" src="img/complex-page-photos/photo4.png"/>
-        <img class="photo" src="img/complex-page-photos/photo5.png"/>
+        <img class="complex-display-photo" src="img/complex-page-photos/photo1.png"/>
+        <img class="complex-display-photo" src="img/complex-page-photos/photo2.png"/>
+        <img class="complex-display-photo" src="img/complex-page-photos/photo3.png"/>
+        <img class="complex-display-photo" src="img/complex-page-photos/photo4.png"/>
+        <img class="complex-display-photo" src="img/complex-page-photos/photo5.png"/>
       </div>
       <div class="complex-display-wrapper container">
         <button class="complex-display-button-all">41 фотография</button>
@@ -282,7 +279,7 @@
               Исторический центр Москвы в двух километрах&nbsp;от Кремля
             </h3>
             <a class="complex-guide-link" href="#">
-              Гид по Якиманке →
+              Гид по Якиманке <img src="img/arrow-nearby.svg">
             </a>
           </div>
           <div class="col-xs-6">
@@ -347,27 +344,27 @@
             <h4 class="footer-complexes-title">
               Жилые комплексы
             </h4>
-            <a class="footer-complexes-link" href="#">
+            <a class="footer-link" href="#">
               ВТБ Арена Парк
             </a>
-            <a class="footer-complexes-link" href="#">
+            <a class="footer-link" href="#">
               Садовые кварталы
             </a>
-            <a class="footer-complexes-link" href="#">
+            <a class="footer-link" href="#">
               Резиденция Монэ
             </a>
-            <a class="footer-complexes-link-all" href="#">
-              Все ЖК Москвы <img src="img/combined-shape.svg" alt="arrow">
+            <a class="footer-link footer-complexes-link-all" href="#">
+              Все ЖК Москвы<img class="footer-complexes-link-all-arrow" src="img/combined-shape.svg" alt="arrow">
             </a>
           </div>
           <div class="col-xs-2">
             <h4 class="footer-about-title">
               Компания
             </h4>
-            <a class="footer-about-link" href="#">
+            <a class="footer-link" href="#">
               Команда
             </a>
-            <a class="footer-about-link" href="#">
+            <a class="footer-link" href="#">
               О компании
             </a>
           </div>
