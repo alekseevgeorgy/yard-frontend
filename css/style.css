@@ -1,0 +1,217 @@
+body {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased;
+  background-image: url('../img/background.png');
+  background-repeat: repeat;
+  background-size: 20px;
+  background-color: #eaebf0;
+}
+
+.header {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid #eaebf0;
+  background-color: #fff;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav-link {
+  margin-left: 2rem;
+  text-decoration: none;
+  color: #3e4247;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.complexes-hero {
+  display: flex;
+  background-color: #161616;
+  justify-content: center;
+  padding: 5rem 0rem;
+}
+
+.complexes-hero-compass-development-logo {
+  width: 418.9px;
+  height: 131px;
+  object-fit: contain;
+}
+
+.complexes-headline {
+  padding: 4rem 0rem;
+  text-align: center;
+}
+
+.complexes-headline-title {
+  font-size: 1.5rem;
+  line-height: 2.3125rem;
+  font-family: 'Fira Sans', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.complexes-headline-paragraph {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: 'Fira Sans', serif;
+  font-weight: 400;
+  margin-top: .5rem;
+}
+
+.button-contact {
+  padding: .75rem 2rem;
+  border-radius: .125rem;
+  background-color: #000;
+  color: #fff;
+  line-height: 1;
+  font-family: 'Fira Sans', serif;
+  font-size: 1rem;
+  border: none;
+}
+
+.complexes-cards {
+  margin-bottom: 6rem;
+}
+
+.complexes-card {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3rem;
+  background-color: white;
+  text-decoration: none;
+}
+
+.complexes-card:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, .3);
+}
+
+.complexes-card-content {
+  padding: 1.5rem 6.25rem 1.5rem 1rem;
+  box-shadow: inset 0rem -.125rem #646971;
+}
+
+.complexes-card-location {
+  font-size: 1rem;
+  color: #646971;
+  font-family: 'Monaco';
+  line-height: 1.25rem;
+  margin: 0 0 1.5rem;
+}
+
+.complexes-card-address {
+  font-family: 'Fira Sans', serif;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  font-weight: 700;
+  color: black;
+  margin: 0 0 .5rem;
+}
+
+.complexes-card-description {
+  font-family: 'Fira Sans', serif;
+  color: #3e4247;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 0;
+}
+
+.complexes-card-photo {
+  object-fit: cover;
+  flex-shrink: 0;
+  width: 31.125rem;
+}
+
+.footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #111;
+}
+
+.footer-legal-title {
+  color: #646971;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: .875rem;
+  line-height: 1.375rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer-legal-text {
+  color: #A9AFB6;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: .875rem;
+  line-height: 1.375rem;
+  font-weight: 300;
+  margin-top: .5rem;
+  margin-bottom: 0;
+}
+.footer-legal-text-tel {
+  color: #A9AFB6;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: .875rem;
+  line-height: 1.375rem;
+  font-weight: 300;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.footer-complexes-title {
+  color: #646971;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: .875rem;
+  line-height: 1.375rem;
+  font-weight: 700;
+  padding-top: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-top: 2px solid #3e4247;
+}
+
+.footer-link {
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0;
+  margin-top: .5rem;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: .875rem;
+  line-height: 1.375rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.footer-complexes-link-all {
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
+
+.footer-complexes-link-all-arrow {
+  margin-left: .5rem;
+}
+
+.footer-about-title {
+  color: #646971;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: .875rem;
+  line-height: 1.375rem;
+  font-weight: 700;
+  padding-top: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-top: 2px solid #3e4247;
+}
+
+.footer-copyright {
+  margin-top: 6rem;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: .6875rem;
+  line-height: 1.125rem;
+  font-weight: 100;
+  color: #a9afb6;
+}
