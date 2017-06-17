@@ -5,7 +5,7 @@ body {
   background-color: #fff;
 }
 
-.complex-brief {
+.complex-brief-wrapper {
   display: flex;
   justify-content: space-between;
 }
@@ -35,7 +35,7 @@ body {
   color: #a9afb6;
 }
 
-.button-complex-brief-fav {
+.complex-brief-button-fav {
 	border-radius: 2px;
 	border: solid 1px #e0e0e1;
   background-color: #fff;
@@ -63,7 +63,7 @@ body {
   position: relative;
 }
 
-.button-complex-display-all {
+.complex-display-button-all {
   position: absolute;
   bottom: 1rem;
   background-color: #00779a;
@@ -244,7 +244,7 @@ body {
   padding: 1.5rem 2rem;
 }
 
-.button-complex-options-cta {
+.complex-options-button-cta {
   display: block;
   padding: .75rem 2rem;
   margin: 2rem auto 0;
