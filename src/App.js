@@ -7,18 +7,18 @@ import Header from "./Header";
 import Footer from "./Footer";
 import List from "./Complexes/List";
 import Show from "./Complexes/Show";
-import ScrollToTopRoute from "./ScrollToTopRoute.js";
+import ScrollToTopRoute from "./ScrollToTopRoute";
 
 class App extends Component {
   render() {
     return (
       <Router>
-        <div className="App">
+        <main>
           <Header />
           <ScrollToTopRoute exact path="/" component={List} />
           <ScrollToTopRoute exact path="/Show" component={Show} />
           <Footer />
-        </div>
+        </main>
       </Router>
     );
   }
