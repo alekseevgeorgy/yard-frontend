@@ -6,7 +6,7 @@ import Hero from "./Hero";
 import Headline from "./Headline";
 
 const Description = styled.p`
-  font-family: 'Fira Sans', serif;
+  font-family: 'Fira Sans', sans-serif;
   color: #3e4247;
   font-size: 1rem;
   line-height: 1.5rem;

@@ -7,7 +7,7 @@ const Headline = styled.div`
 `;
 
 const Text = styled.p`
-  font-family: 'Fira Sans', serif;
+  font-family: 'Fira Sans', sans-serif;
   color: #3e4247;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -36,7 +36,7 @@ const ButtonContact = styled.button`
   background-color: #000;
   color: #fff;
   line-height: 1;
-  font-family: 'Fira Sans', serif;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 1rem;
   border: none;
 `;

@@ -25,13 +25,13 @@ const Content = styled.div`
 const Location = styled.p`
   font-size: 1rem;
   color: #646971;
-  font-family: 'Monaco';
+  font-family: 'Monaco', monospace;
   line-height: 1.25rem;
   margin: 0 0 1.5rem;
 `;
 
 const Name = styled.h3`
-font-family: 'Fira Sans', serif;
+font-family: 'Fira Sans', sans-serif;
 color: black;
 font-size: 2.5rem;
 line-height: 3.5rem;

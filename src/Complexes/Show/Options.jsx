@@ -61,7 +61,7 @@ const Button = styled.button`
   background-color: #000;
   color: #fff;
   line-height: 1;
-  font-family: 'Fira Sans', serif;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 1rem;
   border: none;
 `;
