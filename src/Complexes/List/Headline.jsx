@@ -13,16 +13,11 @@ const Text = styled.p`
   line-height: 1.5rem;
   margin: 0;
   font-weight: 400;
-
-  ${props =>
-    props.marginTopBottom &&
-    `
   margin-top: .5rem;
   margin-bottom: 1rem;
-  `}
 `;
 
-const TextTitle = Text.extend`
+const Title = Text.extend`
   font-size: 1.5rem;
   line-height: 2.3125rem;
   margin: 0;
@@ -44,8 +39,8 @@ const ButtonContact = styled.button`
 export default () => {
   return (
     <Headline>
-      <TextTitle>Discover Our New Developments</TextTitle>
-      <Text marginTopBottom>
+      <Title>Discover Our New Developments</Title>
+      <Text>
         Compass brings a modern approach to new development marketing and sales.
         From boutique rental<br />conversions to luxurious ground-up
         condominiums, browse our portfolio of current offerings.

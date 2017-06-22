@@ -8,10 +8,12 @@ const Card = styled(Link)`
   margin-bottom: 3rem;
   background-color: #fff;
   text-decoration: none;
+
   &:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, .3);
   transition: .15s ease-in-out;
   }
+
   &:last-child {
   margin-bottom: 6rem;
   }
@@ -31,12 +33,12 @@ const Location = styled.p`
 `;
 
 const Name = styled.h3`
-font-family: 'Fira Sans', sans-serif;
-color: black;
-font-size: 2.5rem;
-line-height: 3.5rem;
-margin: 0 0 .5rem;
-font-weight: 700;
+  font-family: 'Fira Sans', sans-serif;
+  color: black;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  margin: 0 0 .5rem;
+  font-weight: 700;
 `;
 
 const Photo = styled.img`
