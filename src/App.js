@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import "normalize.css";
 import "./App.css";
-import "./css/fonts.css";
 import Header from "./Header";
 import Footer from "./Footer";
 import List from "./Complexes/List";
