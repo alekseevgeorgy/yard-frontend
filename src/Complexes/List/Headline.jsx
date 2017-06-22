@@ -1,6 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
-import './css/fonts.css';
+import React from "react";
+import styled from "styled-components";
 
 const Headline = styled.div`
   padding: 4rem 0rem;
@@ -15,7 +14,9 @@ const Text = styled.p`
   margin: 0;
   font-weight: 400;
 
-  ${props => props.marginTopBottom &&`
+  ${props =>
+    props.marginTopBottom &&
+    `
   margin-top: .5rem;
   margin-bottom: 1rem;
   `}
@@ -44,7 +45,11 @@ export default () => {
   return (
     <Headline>
       <TextTitle>Discover Our New Developments</TextTitle>
-      <Text marginTopBottom>Compass brings a modern approach to new development marketing and sales. From boutique rental<br />conversions to luxurious ground-up condominiums, browse our portfolio of current offerings.</Text>
+      <Text marginTopBottom>
+        Compass brings a modern approach to new development marketing and sales.
+        From boutique rental<br />conversions to luxurious ground-up
+        condominiums, browse our portfolio of current offerings.
+      </Text>
       <ButtonContact>Contact The Team</ButtonContact>
     </Headline>
   );

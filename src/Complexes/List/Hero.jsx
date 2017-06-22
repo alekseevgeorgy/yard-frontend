@@ -1,8 +1,6 @@
-import React from 'react';
-import logo from './img/compass-development-logo.svg';
-import logoCompassDevelopment from './img/compass-development-logo.svg';
-import styled from 'styled-components';
-
+import React from "react";
+import logoCompassDevelopment from "../../img/compass-development-logo.svg";
+import styled from "styled-components";
 
 const Hero = styled.div`
   display: flex;

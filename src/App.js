@@ -1,29 +1,24 @@
-import React, { Component } from 'react';
-import styled from 'styled-components';
-import './App.css';
-import './css/fonts.css';
-import background from './img/background.png';
-import Header from './Header';
-import Footer from './Footer.js';
-import List from './List.js';
-
-const Background = styled.div`
-  background-image: url(${background});
-  background-repeat: repeat;
-  background-size: 20px;
-  background-color: #eaebf0;
-`;
+import React, { Component } from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import "./App.css";
+import "./css/fonts.css";
+import Header from "./Header";
+import Footer from "./Footer";
+import List from "./Complexes/List";
+import Show from "./Complexes/Show";
+import ScrollToTopRoute from "./ScrollToTopRoute.js";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Background>
+      <Router>
+        <div className="App">
           <Header />
-          <List />
+          <ScrollToTopRoute exact path="/" component={List} />
+          <ScrollToTopRoute exact path="/Show" component={Show} />
           <Footer />
-        </Background>
-      </div>
+        </div>
+      </Router>
     );
   }
 }

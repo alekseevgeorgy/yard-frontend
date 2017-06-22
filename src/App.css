@@ -1,4 +1,11 @@
 .App {
+}
+
+body {
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased;
+  background-image: url(./img/background.png);
+  background-repeat: repeat;
+  background-size: 20px;
+  background-color: #eaebf0;
 }
