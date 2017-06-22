@@ -6,7 +6,7 @@ import map from "../../img/complex-page-photos/map.png";
 const Directions = styled.div`
   position: relative;
   margin-top: -9.625rem;
-  margin-bottom: 4rem;
+  padding-bottom: 4rem;
 `;
 
 const DirectionsMap = styled.img`
