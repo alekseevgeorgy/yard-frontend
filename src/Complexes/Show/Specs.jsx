@@ -56,68 +56,32 @@ export default () => {
         <Row>
           <Col xs={4}>
             <Table>
-              <Label>
-                Количество квартир:
-              </Label>
-              <Definition>
-                1 503
-              </Definition>
-              <Label>
-                Статус:
-              </Label>
-              <Definition>
-                Квартиры
-              </Definition>
-              <Label>
-                Цены:
-              </Label>
-              <Definition>
-                от 5.3 до 143.5 млн
-              </Definition>
+              <Label>Количество квартир:</Label>
+              <Definition>1 503</Definition>
+              <Label>Статус:</Label>
+              <Definition>Квартиры</Definition>
+              <Label>Цены:</Label>
+              <Definition>от 5.3 до 143.5 млн</Definition>
             </Table>
           </Col>
           <Col xs={4}>
             <Table>
-              <Label>
-                Количество квартир:
-              </Label>
-              <Definition>
-                1 503
-              </Definition>
-              <Label>
-                Количество квартир:
-              </Label>
-              <Definition>
-                1 503
-              </Definition>
-              <Label>
-                Количество квартир:
-              </Label>
-              <Definition>
-                1 503
-              </Definition>
+              <Label>Количество квартир:</Label>
+              <Definition>1 503</Definition>
+              <Label>Количество квартир:</Label>
+              <Definition>1 503</Definition>
+              <Label>Количество квартир:</Label>
+              <Definition>1 503</Definition>
             </Table>
           </Col>
           <Col xs={4}>
             <Table>
-              <Label>
-                Количество квартир:
-              </Label>
-              <Definition>
-                1 503
-              </Definition>
-              <Label>
-                Количество квартир:
-              </Label>
-              <Definition>
-                1 503
-              </Definition>
-              <Label>
-                Количество квартир:
-              </Label>
-              <Definition>
-                1 503
-              </Definition>
+              <Label>Количество квартир:</Label>
+              <Definition>1 503</Definition>
+              <Label>Количество квартир:</Label>
+              <Definition>1 503</Definition>
+              <Label>Количество квартир:</Label>
+              <Definition>1 503</Definition>
             </Table>
           </Col>
         </Row>

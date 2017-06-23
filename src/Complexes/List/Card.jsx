@@ -47,6 +47,15 @@ const Photo = styled.img`
   width: 31.125rem;
 `;
 
+const Description = styled.p`
+  font-family: 'Fira Sans', sans-serif;
+  color: #3e4247;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 0;
+  font-weight: 400;
+`;
+
 export default props => {
   return (
     <Card to="/Show">
@@ -54,7 +63,7 @@ export default props => {
       <Content>
         <Location>{props.location}</Location>
         <Name>{props.name}</Name>
-        {props.children}
+        <Description>{props.children}</Description>
       </Content>
     </Card>
   );

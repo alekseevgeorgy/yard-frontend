@@ -22,13 +22,13 @@ const Title = styled.h2`
 `;
 
 const Small = styled.small`
-display: block;
-font-size: 0.875rem;
-color: #a9afb6;
-font-family: 'Fira Sans', sans-serif;
-font-weight: 300;
-line-height: 1.375rem;
-margin-top: 0.625rem;
+  display: block;
+  font-size: 0.875rem;
+  color: #a9afb6;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.375rem;
+  margin-top: 0.625rem;
 `;
 
 export default () => {
