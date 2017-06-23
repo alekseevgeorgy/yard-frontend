@@ -1,6 +1,6 @@
-import React from "react";
-import { Grid, Row, Col } from "react-flexbox-grid";
-import styled from "styled-components";
+import React from 'react';
+import { Grid, Row, Col } from 'react-flexbox-grid';
+import styled from 'styled-components';
 
 const Options = styled.div`
   background-color: #f4f5f9;
@@ -66,76 +66,74 @@ const Button = styled.button`
   border: none;
 `;
 
-export default () => {
-  return (
-    <Options>
-      <Grid>
-        <Title>
+export default () => (
+  <Options>
+    <Grid>
+      <Title>
           Предложения в ЖК «Полянка/44»
         </Title>
-        <Row>
-          <Col xs={4}>
-            <Card>
-              <Subtitle>
+      <Row>
+        <Col xs={4}>
+          <Card>
+            <Subtitle>
                 1-комнатные квартиры
               </Subtitle>
-              <Label>
+            <Label>
                 Площадь
               </Label>
-              <Value>
+            <Value>
                 от 59 до 120 м²
               </Value>
-              <Label>
+            <Label>
                 Стоимость
               </Label>
-              <Value>
+            <Value>
                 от 20.3 до 84.2 млн руб
               </Value>
-              <Button>Посмотреть предложения</Button>
-            </Card>
-          </Col>
-          <Col xs={4}>
-            <Card>
-              <Subtitle>
+            <Button>Посмотреть предложения</Button>
+          </Card>
+        </Col>
+        <Col xs={4}>
+          <Card>
+            <Subtitle>
                 2-комнатные квартиры
               </Subtitle>
-              <Label>
+            <Label>
                 Площадь
               </Label>
-              <Value>
+            <Value>
                 от 59 до 120 м²
               </Value>
-              <Label>
+            <Label>
                 Стоимость
               </Label>
-              <Value>
+            <Value>
                 от 20.3 до 84.2 млн руб
               </Value>
-              <Button>Посмотреть предложения</Button>
-            </Card>
-          </Col>
-          <Col xs={4}>
-            <Card>
-              <Subtitle>
+            <Button>Посмотреть предложения</Button>
+          </Card>
+        </Col>
+        <Col xs={4}>
+          <Card>
+            <Subtitle>
                 3-комнатные квартиры
               </Subtitle>
-              <Label>
+            <Label>
                 Площадь
               </Label>
-              <Value>
+            <Value>
                 от 59 до 120 м²
               </Value>
-              <Label>
+            <Label>
                 Стоимость
               </Label>
-              <Value>
+            <Value>
                 от 20.3 до 84.2 млн руб
               </Value>
-              <Button>Посмотреть предложения</Button>
-            </Card>
-          </Col>
-        </Row>
-      </Grid>
-    </Options>
+            <Button>Посмотреть предложения</Button>
+          </Card>
+        </Col>
+      </Row>
+    </Grid>
+  </Options>
   );
-};

@@ -1,6 +1,6 @@
-import React from "react";
-import logoCompassDevelopment from "../../img/compass-development-logo.svg";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
+import logoCompassDevelopment from '../../img/compass-development-logo.svg';
 
 const Hero = styled.div`
   display: flex;
@@ -12,10 +12,7 @@ const Hero = styled.div`
 const HeroImage = styled.img`
 `;
 
-export default () => {
-  return (
-    <Hero>
-      <HeroImage src={logoCompassDevelopment} alt="development-logo" />
-    </Hero>
-  );
-};
+export default () =>
+  (<Hero>
+    <HeroImage src={logoCompassDevelopment} alt="development-logo" />
+  </Hero>);

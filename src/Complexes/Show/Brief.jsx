@@ -1,6 +1,6 @@
-import React from "react";
-import { Grid } from "react-flexbox-grid";
-import styled from "styled-components";
+import React from 'react';
+import { Grid } from 'react-flexbox-grid';
+import styled from 'styled-components';
 
 const Brief = styled.div``;
 
@@ -47,24 +47,22 @@ const Button = styled.button`
   font-weight: 300;
 `;
 
-export default () => {
-  return (
-    <Brief>
-      <Grid>
-        <Wrapper>
-          <Info>
-            <Name>
+export default () => (
+  <Brief>
+    <Grid>
+      <Wrapper>
+        <Info>
+          <Name>
               Жилой комплекс «Полянка/44»
             </Name>
-            <Address>
+          <Address>
               Район Якиманка, улица Большая Полянка, дом 44 • 119180
             </Address>
-          </Info>
-          <Button>
+        </Info>
+        <Button>
             В избранное
           </Button>
-        </Wrapper>
-      </Grid>
-    </Brief>
+      </Wrapper>
+    </Grid>
+  </Brief>
   );
-};

@@ -1,6 +1,6 @@
-import React from "react";
-import { Grid, Row, Col } from "react-flexbox-grid";
-import styled from "styled-components";
+import React from 'react';
+import { Grid, Row, Col } from 'react-flexbox-grid';
+import styled from 'styled-components';
 
 const Specs = styled.div`
   margin-top: 2rem;
@@ -46,46 +46,44 @@ const Definition = styled.dd`
   margin-left: 0;
 `;
 
-export default () => {
-  return (
-    <Specs>
-      <Grid>
-        <Title>
+export default () => (
+  <Specs>
+    <Grid>
+      <Title>
           Характеристики
         </Title>
-        <Row>
-          <Col xs={4}>
-            <Table>
-              <Label>Количество квартир:</Label>
-              <Definition>1 503</Definition>
-              <Label>Статус:</Label>
-              <Definition>Квартиры</Definition>
-              <Label>Цены:</Label>
-              <Definition>от 5.3 до 143.5 млн</Definition>
-            </Table>
-          </Col>
-          <Col xs={4}>
-            <Table>
-              <Label>Количество квартир:</Label>
-              <Definition>1 503</Definition>
-              <Label>Количество квартир:</Label>
-              <Definition>1 503</Definition>
-              <Label>Количество квартир:</Label>
-              <Definition>1 503</Definition>
-            </Table>
-          </Col>
-          <Col xs={4}>
-            <Table>
-              <Label>Количество квартир:</Label>
-              <Definition>1 503</Definition>
-              <Label>Количество квартир:</Label>
-              <Definition>1 503</Definition>
-              <Label>Количество квартир:</Label>
-              <Definition>1 503</Definition>
-            </Table>
-          </Col>
-        </Row>
-      </Grid>
-    </Specs>
+      <Row>
+        <Col xs={4}>
+          <Table>
+            <Label>Количество квартир:</Label>
+            <Definition>1 503</Definition>
+            <Label>Статус:</Label>
+            <Definition>Квартиры</Definition>
+            <Label>Цены:</Label>
+            <Definition>от 5.3 до 143.5 млн</Definition>
+          </Table>
+        </Col>
+        <Col xs={4}>
+          <Table>
+            <Label>Количество квартир:</Label>
+            <Definition>1 503</Definition>
+            <Label>Количество квартир:</Label>
+            <Definition>1 503</Definition>
+            <Label>Количество квартир:</Label>
+            <Definition>1 503</Definition>
+          </Table>
+        </Col>
+        <Col xs={4}>
+          <Table>
+            <Label>Количество квартир:</Label>
+            <Definition>1 503</Definition>
+            <Label>Количество квартир:</Label>
+            <Definition>1 503</Definition>
+            <Label>Количество квартир:</Label>
+            <Definition>1 503</Definition>
+          </Table>
+        </Col>
+      </Row>
+    </Grid>
+  </Specs>
   );
-};

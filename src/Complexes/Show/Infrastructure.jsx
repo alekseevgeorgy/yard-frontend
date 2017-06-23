@@ -1,6 +1,6 @@
-import React from "react";
-import { Grid, Row, Col } from "react-flexbox-grid";
-import styled from "styled-components";
+import React from 'react';
+import { Grid, Row, Col } from 'react-flexbox-grid';
+import styled from 'styled-components';
 
 const Infrastructure = styled.div`
   margin-bottom: 4rem;
@@ -27,63 +27,61 @@ const Text = styled.p`
   color: #3e4247;
 `;
 
-export default () => {
-  return (
-    <Infrastructure>
-      <Grid>
-        <Title>
+export default () => (
+  <Infrastructure>
+    <Grid>
+      <Title>
           Инфраструктура
         </Title>
-        <Row>
-          <Col xs={2}>
-            <Text>
+      <Row>
+        <Col xs={2}>
+          <Text>
               Бассейн
             </Text>
-          </Col>
-          <Col xs={2}>
-            <Text>
+        </Col>
+        <Col xs={2}>
+          <Text>
               Детский сад
             </Text>
-          </Col>
-          <Col xs={2}>
-            <Text>
+        </Col>
+        <Col xs={2}>
+          <Text>
               Частная школа
             </Text>
-          </Col>
-          <Col xs={2}>
-            <Text>
+        </Col>
+        <Col xs={2}>
+          <Text>
               Бассейн
             </Text>
-          </Col>
-          <Col xs={2}>
-            <Text>
+        </Col>
+        <Col xs={2}>
+          <Text>
               Детский сад
             </Text>
-          </Col>
-          <Col xs={2}>
-            <Text>
+        </Col>
+        <Col xs={2}>
+          <Text>
               Частная школа
             </Text>
-          </Col>
-        </Row>
-        <Row>
-          <Col xs={2}>
-            <Text>
+        </Col>
+      </Row>
+      <Row>
+        <Col xs={2}>
+          <Text>
               Частная школа
             </Text>
-          </Col>
-          <Col xs={2}>
-            <Text>
+        </Col>
+        <Col xs={2}>
+          <Text>
               Частная школа
             </Text>
-          </Col>
-          <Col xs={2}>
-            <Text>
+        </Col>
+        <Col xs={2}>
+          <Text>
               Частная школа
             </Text>
-          </Col>
-        </Row>
-      </Grid>
-    </Infrastructure>
+        </Col>
+      </Row>
+    </Grid>
+  </Infrastructure>
   );
-};

@@ -1,6 +1,6 @@
-import React from "react";
-import { Grid } from "react-flexbox-grid";
-import styled from "styled-components";
+import React from 'react';
+import { Grid } from 'react-flexbox-grid';
+import styled from 'styled-components';
 
 const Info = styled.div``;
 
@@ -31,16 +31,13 @@ const Small = styled.small`
   margin-top: 0.625rem;
 `;
 
-export default () => {
-  return (
-    <Info>
-      <Grid>
-        <Facts>
-          <Title>950<Small>предложений</Small></Title>
-          <Title>John McAslan + Partners<Small>архитектор</Small></Title>
-          <Title>Группа «ПСН»<Small>застройщик</Small></Title>
-        </Facts>
-      </Grid>
-    </Info>
-  );
-};
+export default () =>
+  (<Info>
+    <Grid>
+      <Facts>
+        <Title>950<Small>предложений</Small></Title>
+        <Title>John McAslan + Partners<Small>архитектор</Small></Title>
+        <Title>Группа «ПСН»<Small>застройщик</Small></Title>
+      </Facts>
+    </Grid>
+  </Info>);

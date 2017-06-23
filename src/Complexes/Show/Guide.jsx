@@ -1,7 +1,7 @@
-import React from "react";
-import { Grid, Row, Col } from "react-flexbox-grid";
-import styled from "styled-components";
-import arrow from "../../img/arrow-nearby.svg";
+import React from 'react';
+import { Grid, Row, Col } from 'react-flexbox-grid';
+import styled from 'styled-components';
+import arrow from '../../img/arrow-nearby.svg';
 
 const Guide = styled.div`
   background-color: #3e4247;
@@ -46,33 +46,28 @@ const Photo = styled.img`
   line-height: 0;
 `;
 
-export default () => {
-  return (
-    <Guide>
-      <Grid>
-        <Row>
-          <Col xs={6}>
-            <Location>
+export default () => (
+  <Guide>
+    <Grid>
+      <Row>
+        <Col xs={6}>
+          <Location>
               Якиманка
             </Location>
-            <Title>
+          <Title>
               Исторический центр Москвы в двух километрах&nbsp;от Кремля
             </Title>
-            <Link>
+          <Link>
               Гид по Якиманке <img src={arrow} alt="arrow" />
-            </Link>
-          </Col>
-          <Col xs={6}>
-            <Photo
-              src={
-                process.env.PUBLIC_URL +
-                "img/complex-page-photos/guide-photo.png"
-              }
-              alt="guidePhoto"
-            />
-          </Col>
-        </Row>
-      </Grid>
-    </Guide>
+          </Link>
+        </Col>
+        <Col xs={6}>
+          <Photo
+            src={`${process.env.PUBLIC_URL}img/complex-page-photos/guide-photo.png`}
+            alt="guidePhoto"
+          />
+        </Col>
+      </Row>
+    </Grid>
+  </Guide>
   );
-};

@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 const Headline = styled.div`
   padding: 4rem 0rem;
@@ -36,16 +36,14 @@ const ButtonContact = styled.button`
   border: none;
 `;
 
-export default () => {
-  return (
-    <Headline>
-      <Title>Discover Our New Developments</Title>
-      <Text>
+export default () => (
+  <Headline>
+    <Title>Discover Our New Developments</Title>
+    <Text>
         Compass brings a modern approach to new development marketing and sales.
         From boutique rental<br />conversions to luxurious ground-up
         condominiums, browse our portfolio of current offerings.
       </Text>
-      <ButtonContact>Contact The Team</ButtonContact>
-    </Headline>
+    <ButtonContact>Contact The Team</ButtonContact>
+  </Headline>
   );
-};

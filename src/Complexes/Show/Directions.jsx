@@ -1,6 +1,6 @@
-import React from "react";
-import { Grid, Row, Col } from "react-flexbox-grid";
-import styled from "styled-components";
+import React from 'react';
+import { Grid, Row, Col } from 'react-flexbox-grid';
+import styled from 'styled-components';
 
 const Directions = styled.div`
   position: relative;
@@ -45,35 +45,33 @@ const Time = styled.p`
   margin-bottom: 0;
 `;
 
-export default () => {
-  return (
-    <Directions>
-      <Grid>
-        <Row>
-          <Col xs={6}>
-            <DirectionsMap
-              src={process.env.PUBLIC_URL + "img/complex-page-photos/map.png"}
-              alt="map"
-            />
-          </Col>
-          <Col xs={6}>
-            <Card>
-              <Poi>
-                <Place>Красный Октябрь</Place>
-                <Time>24 минуты, 6 км</Time>
-              </Poi>
-              <Poi>
-                <Place>World class</Place>
-                <Time>2 минуты, 300 м</Time>
-              </Poi>
-              <Poi>
-                <Place>Третьяковская галерея</Place>
-                <Time>14 минут, 4 км</Time>
-              </Poi>
-            </Card>
-          </Col>
-        </Row>
-      </Grid>
-    </Directions>
+export default () => (
+  <Directions>
+    <Grid>
+      <Row>
+        <Col xs={6}>
+          <DirectionsMap
+            src={`${process.env.PUBLIC_URL}img/complex-page-photos/map.png`}
+            alt="map"
+          />
+        </Col>
+        <Col xs={6}>
+          <Card>
+            <Poi>
+              <Place>Красный Октябрь</Place>
+              <Time>24 минуты, 6 км</Time>
+            </Poi>
+            <Poi>
+              <Place>World class</Place>
+              <Time>2 минуты, 300 м</Time>
+            </Poi>
+            <Poi>
+              <Place>Третьяковская галерея</Place>
+              <Time>14 минут, 4 км</Time>
+            </Poi>
+          </Card>
+        </Col>
+      </Row>
+    </Grid>
+  </Directions>
   );
-};

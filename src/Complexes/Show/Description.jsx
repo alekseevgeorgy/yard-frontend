@@ -1,6 +1,6 @@
-import React from "react";
-import { Grid, Row, Col } from "react-flexbox-grid";
-import styled from "styled-components";
+import React from 'react';
+import { Grid, Row, Col } from 'react-flexbox-grid';
+import styled from 'styled-components';
 
 const Description = styled.div`
   margin-top: 3rem;
@@ -27,18 +27,17 @@ const Text = styled.p`
   margin-bottom: 0rem;
 `;
 
-export default () => {
-  return (
-    <Description>
-      <Grid>
-        <Row>
-          <Col xs={2}>
-            <Title>
+export default () => (
+  <Description>
+    <Grid>
+      <Row>
+        <Col xs={2}>
+          <Title>
               Описание
             </Title>
-          </Col>
-          <Col xs={10}>
-            <Text>
+        </Col>
+        <Col xs={10}>
+          <Text>
               ВТБ Арена Парк — современный квартал в 10 минутах езды от
               Кремля.
               Территория разделена на три зоны: жилой район, центральный
@@ -79,9 +78,8 @@ export default () => {
               подышать
               свежим воздухом во время рабочего перерыва.
             </Text>
-          </Col>
-        </Row>
-      </Grid>
-    </Description>
+        </Col>
+      </Row>
+    </Grid>
+  </Description>
   );
-};

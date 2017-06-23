@@ -1,6 +1,6 @@
-import React from "react";
-import styled from "styled-components";
-import { Link } from "react-router-dom";
+import React from 'react';
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const Card = styled(Link)`
   display: flex;
@@ -56,15 +56,12 @@ const Description = styled.p`
   font-weight: 400;
 `;
 
-export default props => {
-  return (
-    <Card to="/сomplex">
-      <Photo src={process.env.PUBLIC_URL + "img/bitmap-" + props.id + ".png"} />
-      <Content>
-        <Location>{props.location}</Location>
-        <Name>{props.name}</Name>
-        <Description>{props.children}</Description>
-      </Content>
-    </Card>
-  );
-};
+export default props =>
+  (<Card to="/complex">
+    <Photo src={`${process.env.PUBLIC_URL}img/bitmap-${props.id}.png`} />
+    <Content>
+      <Location>{props.location}</Location>
+      <Name>{props.name}</Name>
+      <Description>{props.children}</Description>
+    </Content>
+  </Card>);
