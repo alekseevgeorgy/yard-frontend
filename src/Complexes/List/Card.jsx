@@ -58,7 +58,7 @@ const Description = styled.p`
 
 export default props => {
   return (
-    <Card to="/Complex">
+    <Card to="/сomplex">
       <Photo src={process.env.PUBLIC_URL + "img/bitmap-" + props.id + ".png"} />
       <Content>
         <Location>{props.location}</Location>
