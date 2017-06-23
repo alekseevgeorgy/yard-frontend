@@ -2,7 +2,6 @@ import React from "react";
 import { Grid, Row, Col } from "react-flexbox-grid";
 import styled from "styled-components";
 import arrow from "../../img/arrow-nearby.svg";
-import guidePhoto from "../../img/complex-page-photos/guide-photo.png";
 
 const Guide = styled.div`
   background-color: #3e4247;
@@ -64,7 +63,13 @@ export default () => {
             </Link>
           </Col>
           <Col xs={6}>
-            <Photo src={guidePhoto} alt="guidePhoto" />
+            <Photo
+              src={
+                process.env.PUBLIC_URL +
+                "img/complex-page-photos/guide-photo.png"
+              }
+              alt="guidePhoto"
+            />
           </Col>
         </Row>
       </Grid>

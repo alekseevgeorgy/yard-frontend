@@ -1,11 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { Grid } from "react-flexbox-grid";
-import photo1 from "../../img/complex-page-photos/photo1.png";
-import photo2 from "../../img/complex-page-photos/photo2.png";
-import photo3 from "../../img/complex-page-photos/photo3.png";
-import photo4 from "../../img/complex-page-photos/photo4.png";
-import photo5 from "../../img/complex-page-photos/photo5.png";
 
 const Display = styled.div`
   margin-bottom: 24px;
@@ -45,11 +40,26 @@ export default () => {
     <div>
       <Display>
         <Photos>
-          <Photo src={photo1} alt={photo1} />
-          <Photo src={photo2} alt={photo2} />
-          <Photo src={photo3} alt={photo3} />
-          <Photo src={photo4} alt={photo4} />
-          <Photo src={photo5} alt={photo5} />
+          <Photo
+            src={process.env.PUBLIC_URL + "img/complex-page-photos/photo1.png"}
+            alt="photo1"
+          />
+          <Photo
+            src={process.env.PUBLIC_URL + "img/complex-page-photos/photo2.png"}
+            alt="photo2"
+          />
+          <Photo
+            src={process.env.PUBLIC_URL + "img/complex-page-photos/photo3.png"}
+            alt="photo3"
+          />
+          <Photo
+            src={process.env.PUBLIC_URL + "img/complex-page-photos/photo4.png"}
+            alt="photo4"
+          />
+          <Photo
+            src={process.env.PUBLIC_URL + "img/complex-page-photos/photo5.png"}
+            alt="photo5"
+          />
         </Photos>
         <ButtonWrapper>
           <Grid>
