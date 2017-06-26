@@ -4,7 +4,7 @@
     "react/prop-types": "off"
     },
   "env": {
-        "browser": true,
-        "jest": true,
+    "browser": true,
+    "jest": true,
     }
 }
