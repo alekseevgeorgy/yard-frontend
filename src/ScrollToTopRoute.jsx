@@ -13,9 +13,9 @@ class ScrollToTopRoute extends Component {
   }
 
   render() {
-    const { component: Component, ...rest } = this.props;
+    const { component: ExtractedComponent, ...rest } = this.props;
 
-    return <Route {...rest} render={props => <Component {...props} />} />;
+    return <Route {...rest} render={props => <ExtractedComponent {...props} />} />;
   }
 }
 
